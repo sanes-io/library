@@ -6,6 +6,7 @@ Built with Node.js, Express, MongoDB, Mongoose
 
 ## Usage
 
+```
 GET /api/books
 
 GET, PATCH, DELETE /api/books/:id
@@ -21,7 +22,9 @@ POST /api/books {
 "year": number (optional)
 
 }
+```
 
+```
 GET /api/movies
 
 GET, PATCH, DELETE /api/movies/:id
@@ -41,3 +44,4 @@ POST /api/movies
 
 "runtime": string (optional)
 }
+```
