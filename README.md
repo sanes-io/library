@@ -6,11 +6,11 @@ Built with Node.js, Express, MongoDB, Mongoose
 
 ## Usage
 
-GET /books
+GET /api/books
 
-GET, PATCH, DELETE /books/:id
+GET, PATCH, DELETE /api/books/:id
 
-POST /books {
+POST /api/books {
 
 "title": String,
 
@@ -22,11 +22,11 @@ POST /books {
 
 }
 
-GET /movies
+GET /api/movies
 
-GET, PATCH, DELETE /movies/:id
+GET, PATCH, DELETE /api/movies/:id
 
-POST /movies
+POST /api/movies
 {
 
 "title": String,
